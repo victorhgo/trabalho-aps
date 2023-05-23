@@ -1,34 +1,64 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body, html {
+    font-family: Poppins;
+    height: 100%;
     margin: 10;
-    background-color: darkblue;
-    font-family: Helvetica;
 }
+
+.bg-image {
+    background-image: url("img/background.jpg");
+    background: fixed;
+
+    height: 100%;
+        
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .header {
     background-color: cadetblue;
     display: flex;
+    opacity: 0.5;
+    z-index: 2;
 }
 
 .nav {
-    background-color: chocolate;
+    background-color: rgb(14, 49, 102);
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     font-weight: bolder;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 .article {
-    background-color: chartreuse;
+    background-color: rgb(27, 97, 102);
     text-align: center;
     justify-content: center;
     align-items: center;
+    opacity: 0.9;
 }
 
 .footer {
     background-color: crimson;
     display: flex;
     text-align: center;
+    margin-top: 5px;
     justify-content: center;
     align-items: center;
+    opacity: 0.5;
 }
