@@ -11,14 +11,16 @@ body, html {
 }
 
 .header {
-    background-color: rgb(14, 49, 102);
+    background-color: cadetblue;
     display: flex;
-    opacity: 0.5;
+    opacity: 0.7;
     z-index: 2;
+    border-radius: 25px;
 }
 
 .nav {
     background-color: rgb(14, 49, 102);
+    background-color: rgb(14, 49, 102, 0.7);
     display: flex;
     text-align: center;
     justify-content: center;
@@ -28,6 +30,7 @@ body, html {
     margin-top: 8px;
     margin-bottom: 8px;
     z-index: 2;
+    border-radius: 25px;
 }
 
 a {
@@ -36,19 +39,24 @@ a {
 }
 
 .article {
-    background-color: rgb(27, 97, 102);
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
     text-align: center;
     justify-content: center;
     align-items: center;
     opacity: 0.9;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
 }
 
 .footer {
-    background-color: crimson;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
     display: flex;
     text-align: center;
     margin-top: 5px;
     justify-content: center;
     align-items: center;
     opacity: 0.5;
+    border-radius: 25px;
 }
