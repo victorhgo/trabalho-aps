@@ -2,23 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 body, html {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-position: center;
     font-family: Poppins;
-    color: white;
     height: 100%;
     margin: 10;
-}
-
-.bg-image {
-    background-image: url("img/background.jpg");
-    background: fixed;
-
-    height: 100%;
-        
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
 }
 
 .header {
