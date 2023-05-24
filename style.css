@@ -3,7 +3,7 @@
 
 body {
     background-image: url('img/background.jpg');
-    background-size: cover;
+    background-size: fill;
     background-position: center;
     display: flex;
     justify-content: center;
@@ -28,8 +28,8 @@ body {
 }
 
 .logo img {
-    width: 180px;
-    height: 180px;
+    width: 310px;
+    height: 190px;
 }
 
 .nav {
@@ -94,7 +94,7 @@ a {
     text-align: center;
     margin-top: 5px;
     justify-content: center;
+    color: rgb(255, 255, 255);
     align-items: center;
-    opacity: 0.5;
     border-radius: 25px;
 }
