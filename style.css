@@ -76,8 +76,8 @@ a {
 }
 
 .article {
-    background-color: rgb(109, 107, 107); /* Fallback color */
-    background-color: rgba(109, 107, 107, 0.7); /* Black w/opacity/see-through */
+    background-color: rgb(83, 88, 88); /* Fallback color */
+    background-color: rgba(83, 88, 88, 0.7); /* Black w/opacity/see-through */
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -88,8 +88,8 @@ a {
 }
 
 .footer {
-    background-color: rgb(109, 107, 107); /* Fallback color */
-    background-color: rgba(109, 107, 107, 0.7); /* Black w/opacity/see-through */
+    background-color: rgb(83, 88, 88); /* Fallback color */
+    background-color: rgba(83, 88, 88, 0.7); /* Black w/opacity/see-through */
     display: flex;
     text-align: center;
     margin-top: 5px;
