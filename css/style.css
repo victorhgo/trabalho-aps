@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 body {
-    background-image: url('/img/background.jpg');
+    background-image: url('/trabalho-aps-main/img/background.jpg');
     background-size: fill;
     background-position: center;
     display: flex;
