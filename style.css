@@ -17,9 +17,19 @@ body {
 .header {
     color: #fff;
     justify-content: center;
+    text-align: center;
     display: flex;
-    z-index: 2;
-    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px;
+    height: 180px;
 }
 
 .nav {
