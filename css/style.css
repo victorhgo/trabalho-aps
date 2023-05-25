@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 body {
-    background-image: url('/img/background.jpg');
+    background-image: url('/trabalho-aps-main/img/background.jpg');
     background-size: fill;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Poppins;
+    font-size: 20px;
     height: 100%;
     margin: 10;
     flex-direction: column;
@@ -97,4 +98,9 @@ a {
     color: rgb(255, 255, 255);
     align-items: center;
     border-radius: 25px;
+}
+
+.paragraph {
+    text-align: left;
+    margin: 10px;
 }
